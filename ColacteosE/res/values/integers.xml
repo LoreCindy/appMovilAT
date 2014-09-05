@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="filas">13</integer>
+    <integer name="columnas">2</integer>
+    <integer name="fila">15</integer>
+    <integer name="filass">16</integer>
+    <integer name="f">20</integer>
+</resources>

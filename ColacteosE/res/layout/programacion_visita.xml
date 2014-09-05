@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="         Programe su visita"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtFinca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Finca:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/spnFinca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtProfesional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profesional:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/spnProfesional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFechaVisita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha Visita:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editFechaVisita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/txtHoraVisita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hora Ingreso:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editHoraVisita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time" />
+
+            <TextView
+                android:id="@+id/txtClaseVisita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clase Visita:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/spnClaseVisita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tctsAsociado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asociado:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/spnAsociado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtTipoVisita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo Visita:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/spnTipoVisita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnAceptarVisita"
+               android:layout_width="match_parent"
+       			 android:layout_height="66dp"
+                android:text="Aceptar" />
+
+            <Button
+                android:id="@+id/btnCancelarProgramacion"
+                android:layout_width="match_parent"
+       			 android:layout_height="66dp"
+                android:text="Cancelar" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

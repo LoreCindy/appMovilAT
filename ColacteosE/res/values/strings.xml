@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Colacteos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Nombres">Nombres:</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="Codigo">Codigo:</string>
+    <string name="Aceptar">Aceptar:</string>
+    <string name="Cancelar">Cancelar:</string>
+    <string name="nombre_animal">nombre_animal</string>
+
+</resources>

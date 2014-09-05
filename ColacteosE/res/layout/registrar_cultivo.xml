@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <TextView
+        android:id="@+id/txt_bienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="       Registre Su Cultivo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtCodCul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo Cultivo:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edCodCul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/txtNomcult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Cultivo:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edNomCul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtpromHec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Promedio Hectarea:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edPromHec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txtCodFincas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo Finca:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/edCodFincas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_regUGG"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:text="Guardar" />
+
+            <Button
+                android:id="@+id/btn_cancelarC"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:text="Cancelar" />
+
+        </LinearLayout>
+    </ScrollView>
+    
+    
+</LinearLayout>

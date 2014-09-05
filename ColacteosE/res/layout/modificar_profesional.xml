@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+       android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp" >
+
+        <TextView
+            android:id="@+id/txt_idActi"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="NIT:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edt_nitp"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="53dp" >
+
+        <TextView
+            android:id="@+id/txt_act"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Nombres"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edt_nomp"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="54dp" >
+
+        <TextView
+            android:id="@+id/txt_costoA"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Apellidos"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edt_apep"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="62dp" >
+
+        <TextView
+            android:id="@+id/txt_fechaMuerte"
+            android:layout_width="89dp"
+            android:layout_height="35dp"
+            android:text="Titulo:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edt_titp"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp" >
+
+        <TextView
+            android:id="@+id/txt_motivoMuerte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Institucion"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edt_instp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_actpro"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Actualizar" />
+
+        <Button
+            android:id="@+id/btn_elmip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Eliminar" />
+    </LinearLayout>
+
+</LinearLayout>

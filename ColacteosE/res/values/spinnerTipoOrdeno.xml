@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TipoOrdeno">
+         <item> Manual</item>
+         <item> Mecanico</item>
+    </string-array>
+    
+</resources>

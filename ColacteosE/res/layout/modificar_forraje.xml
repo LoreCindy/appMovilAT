@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_act"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edt_codForr"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:ems="10"
+            android:visibility="gone" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="54dp" >
+
+        <TextView
+            android:id="@+id/txt_idActi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forraje:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_nomForr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_actForr"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Actualizar" />
+
+        <Button
+            android:id="@+id/btn_elimForr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Eliminar" />
+
+    </LinearLayout>
+
+</LinearLayout>

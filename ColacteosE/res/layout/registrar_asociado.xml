@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView
+        android:id="@+id/txt_bienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="      Registre su Asociado"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtNombres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombres:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/txtNit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nit:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edNit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txtCodFinca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo finca:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/spnCodFinca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtIde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo Identificacion:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/spnTipId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtDire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edTDirecion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/tstTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edtTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/btn_registrarAso"
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.56"
+                android:text="Guardar" />
+
+            <Button
+                android:id="@+id/btn_op_cultivo"
+                 android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.56"
+                android:text="Cancelar" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+
+</LinearLayout>

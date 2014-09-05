@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_fechaMuerte"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp" >
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_codCasuistica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp" >
+
+        <TextView
+            android:id="@+id/txt_act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enfermedad:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_enferCas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp" >
+
+        <TextView
+            android:id="@+id/txt_costoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sistema:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_sisst"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_actuCas"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.25"
+            android:text="@string/Actualizar" />
+
+        <Button
+            android:id="@+id/btn_elimCasu"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Eliminar" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="               Utilidades Forraje"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btn_RegisNuevoForraje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registra nuevo forraje" />
+
+    <ListView
+        android:id="@+id/listaForraje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

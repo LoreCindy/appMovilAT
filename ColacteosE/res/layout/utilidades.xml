@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_bienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="       Bienvenido a Utilidades"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_op_prof"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="Opciones de Profesional" />
+
+            <Button
+                android:id="@+id/btn_op_as"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="Opciones de Asociado" />
+
+            <Button
+                android:id="@+id/btn_op_finc"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="Opciones de Fincas" />
+
+            <Button
+                android:id="@+id/btn_op_ani"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Opciones de Animales" />
+
+            <Button
+                android:id="@+id/btn_op_cultivo"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Opciones Cultivos" />
+
+            <Button
+                android:id="@+id/btn_op_solicitud"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Opciones Sistema" />
+
+            <Button
+                android:id="@+id/btn_op_casuistica"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Opciones Casuistica" />
+
+            <Button
+                android:id="@+id/btn_op_forraje"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Opciones Forraje" />
+
+            <Button
+                android:id="@+id/btn_op_actividades"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Opciones Actividades" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

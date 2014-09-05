@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:layout_weight="0.44" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+           
+
+            <EditText
+                android:id="@+id/id_finca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:visibility="gone" >
+
+                <requestFocus />
+            </EditText>
+            
+            <TextView
+            android:id="@+id/txt_nombreAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_nomFinca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+            
+                <TextView
+            android:id="@+id/txt_fechaMuerte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Propietario:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_propi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+                <TextView
+            android:id="@+id/txt_motivoMuerte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ciudad:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_ciuFinca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        
+                <TextView
+            android:id="@+id/txt_generoAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_ubicFinca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        
+                <TextView
+            android:id="@+id/txt_codigoFincaAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hectareas:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_hectFinca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+        
+                <TextView
+            android:id="@+id/txt_fechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitud:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_latiFinca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+        
+                <TextView
+            android:id="@+id/txt_pesoAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitud:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_longFinca"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+        
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mano de Obra:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_manoObraFin"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        
+                <TextView
+            android:id="@+id/txt_razaAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo ordeño:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_tipoOrdFinca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+           android:inputType="textPersonName"  />
+        
+                <TextView
+            android:id="@+id/txt_fechaVenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departamento:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_departFinca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_editCulti"
+            android:layout_width="match_parent"
+        android:layout_height="68dp"
+            android:text="Cultivo" />
+  
+                <Button
+            android:id="@+id/btn_actuFinca"
+            android:layout_width="match_parent"
+        android:layout_height="68dp"
+            android:text="@string/Actualizar" />
+
+        <Button
+            android:id="@+id/btn_elimFinca"
+           android:layout_width="match_parent"
+        android:layout_height="68dp"
+            android:text="@string/Eliminar" />
+        
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

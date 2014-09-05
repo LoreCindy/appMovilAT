@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txt_ConsultarVisita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="            Consultar Visitas"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/lbl_cedula"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="   Cedula:" />
+
+        <EditText
+            android:id="@+id/txt_cedula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp" >
+
+        <TextView
+            android:id="@+id/txt_fechaVisita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="  Fecha Visita:" />
+
+        <EditText
+            android:id="@+id/txt_fechaVisita"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_buscarVisitas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar" />
+
+    </LinearLayout>
+
+</LinearLayout>

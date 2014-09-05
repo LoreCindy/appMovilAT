@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="SpinnerRazaUgg">
+        <item>Raza</item>
+        <item>Simmental</item>
+        <item>Simbrah</item>
+        <item>Shorthorn</item>
+        <item>Senepol</item>
+        <item>Sardo Negro</item>
+        <item>Rojo Sueco</item>
+        <item>Red Polled</item>
+        <item>Nelore</item>
+        <item>Normando</item>
+        <item>Holstein</item>
+        <item>Pardo Suizo</item>
+        <item>Jersey</item>
+        <item>Ayrshire</item>
+        <item>No Aplica</item>
+    </string-array>
+    
+</resources>

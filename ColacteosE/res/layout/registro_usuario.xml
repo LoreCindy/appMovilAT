@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_ConsultarVisita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                            Registre sus Datos" />
+
+    <TextView
+        android:id="@+id/txt_bienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombres:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txt_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtLongitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellidos:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txt_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtUsuUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txt_nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txtPassusuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_guardar_Registro"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:background="#08C5F9"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/btn_cancelar_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#08C5F9"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_op_cultivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuarios" />
+
+</LinearLayout>

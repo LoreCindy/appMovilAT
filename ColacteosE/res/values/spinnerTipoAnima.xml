@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="SpinnerTipoAnimal">
+        <item >Porcino </item>
+        <item >Caprino </item> 
+        <item >Bovino </item> 
+        <item >Equino </item>       
+        <item >Ovino </item>
+     </string-array>
+</resources>

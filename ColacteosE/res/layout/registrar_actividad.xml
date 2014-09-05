@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_codigoAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="    REGISTRE SU ACTIVIDAD"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp" >
+
+        <TextView
+            android:id="@+id/texnomAni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_idActividad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp" >
+
+        <TextView
+            android:id="@+id/txt_nombreAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actividad:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_actividadDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp" >
+
+        <TextView
+            android:id="@+id/txt_fechaMuerte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Costo:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/edt_costoActividad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_regsitrarActividad"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Aceptar" />
+
+        <Button
+            android:id="@+id/btn_canceActi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancelar" />
+
+    </LinearLayout>
+
+</LinearLayout>
